@@ -5,7 +5,7 @@
         <el-input v-model="teacher.name"/>
       </el-form-item>
       <el-form-item label="讲师排序">
-        <el-input-number v-model="teacher.sort" controls-position="right"/>
+        <el-input-number :min="0" v-model="teacher.sort" controls-position="right"/>
       </el-form-item>
       <el-form-item label="讲师头衔">
         <el-select v-model="teacher.level" clearable placeholder="请选择">
