@@ -218,6 +218,7 @@ export default {
           message: '保存成功!'
         })
         this.helpSaveVideo()
+        this.fileList = []
       })
     },
     editVideo(videoId) {
