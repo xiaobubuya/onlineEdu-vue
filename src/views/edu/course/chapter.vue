@@ -218,7 +218,6 @@ export default {
           message: '保存成功!'
         })
         this.helpSaveVideo()
-        this.fileList = []
       })
     },
     editVideo(videoId) {
@@ -246,6 +245,7 @@ export default {
       this.video.sort = 0// 重置章节标题
       this.video.videoSourceId = ''// 重置视频资源id
       this.saveVideoBtnDisabled = false
+      this.fileList = []
     },
     //================================章节操作===============================================
     init() {
