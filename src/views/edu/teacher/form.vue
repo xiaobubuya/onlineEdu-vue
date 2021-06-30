@@ -123,7 +123,7 @@ export default {
           message: '保存成功!'
         })
       }).then(resposne => {
-        this.$router.push({ path: '/edu/teacher' })
+        this.$router.push({ path: '/edu/teacher/list' })
       }).catch((response) => {
         // console.log(response)
         this.$message({
@@ -154,7 +154,7 @@ export default {
           message: '修改成功!'
         })
       }).then(resposne => {
-        this.$router.push({ path: '/edu/teacher' })
+        this.$router.push({ path: '/edu/teacher/list' })
       }).catch((response) => {
         // console.log(response)
         this.$message({
